@@ -1,0 +1,15 @@
+﻿@model ICollection<ProductViewModel>
+
+@{
+	ViewData["Title"] = "All Products";
+}
+
+<div class="card" style="width: 18rem;">
+	<div class="card-header">@ViewData["Title"]</div>
+	<ul class="list-group list-group-flush">
+		@foreach(var product in Model)
+		{
+			<li class="list-group-item">@product.Id @product.Name - @product.Price lv.</li>
+		}
+	</ul>
+</div>
