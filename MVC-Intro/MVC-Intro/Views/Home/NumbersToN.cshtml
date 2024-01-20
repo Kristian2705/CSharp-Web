@@ -1,0 +1,22 @@
+﻿@{
+	ViewData["Title"] = $"Nums 1..{ViewBag.Count}";
+}
+
+<h1>@ViewData["Title"]</h1>
+<ul>
+	@for(int i = 1; i <= ViewBag.Count; i++)
+	{
+		<li>@i</li>
+	}
+</ul>
+
+<form asp-controller="Home" asp-action="NumbersToN" method="post">
+	<div class="row">
+		<div class="col-2"v>
+			<input class="form-control" type="number" min="0" step="1" name="count" />
+		</div>
+		<div class="col-2">
+			<button class="btn btn-primary">Submit</button>
+		</div>
+	</div>
+</form>

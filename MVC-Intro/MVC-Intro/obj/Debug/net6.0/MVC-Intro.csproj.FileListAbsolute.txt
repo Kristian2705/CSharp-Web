@@ -1,0 +1,60 @@
+C:\Users\vorod\OneDrive\Documents\C# Web\MVC-Intro\MVC-Intro\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\vorod\OneDrive\Documents\C# Web\MVC-Intro\MVC-Intro\bin\Debug\net6.0\appsettings.json
+C:\Users\vorod\OneDrive\Documents\C# Web\MVC-Intro\MVC-Intro\bin\Debug\net6.0\MVC-Intro.staticwebassets.runtime.json
+C:\Users\vorod\OneDrive\Documents\C# Web\MVC-Intro\MVC-Intro\bin\Debug\net6.0\MVC-Intro.exe
+C:\Users\vorod\OneDrive\Documents\C# Web\MVC-Intro\MVC-Intro\bin\Debug\net6.0\MVC-Intro.deps.json
+C:\Users\vorod\OneDrive\Documents\C# Web\MVC-Intro\MVC-Intro\bin\Debug\net6.0\MVC-Intro.runtimeconfig.json
+C:\Users\vorod\OneDrive\Documents\C# Web\MVC-Intro\MVC-Intro\bin\Debug\net6.0\MVC-Intro.dll
+C:\Users\vorod\OneDrive\Documents\C# Web\MVC-Intro\MVC-Intro\bin\Debug\net6.0\MVC-Intro.pdb
+C:\Users\vorod\OneDrive\Documents\C# Web\MVC-Intro\MVC-Intro\obj\Debug\net6.0\MVC-Intro.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vorod\OneDrive\Documents\C# Web\MVC-Intro\MVC-Intro\obj\Debug\net6.0\MVC-Intro.AssemblyInfoInputs.cache
+C:\Users\vorod\OneDrive\Documents\C# Web\MVC-Intro\MVC-Intro\obj\Debug\net6.0\MVC-Intro.AssemblyInfo.cs
+C:\Users\vorod\OneDrive\Documents\C# Web\MVC-Intro\MVC-Intro\obj\Debug\net6.0\MVC-Intro.csproj.CoreCompileInputs.cache
+C:\Users\vorod\OneDrive\Documents\C# Web\MVC-Intro\MVC-Intro\obj\Debug\net6.0\MVC-Intro.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\vorod\OneDrive\Documents\C# Web\MVC-Intro\MVC-Intro\obj\Debug\net6.0\MVC-Intro.RazorAssemblyInfo.cache
+C:\Users\vorod\OneDrive\Documents\C# Web\MVC-Intro\MVC-Intro\obj\Debug\net6.0\MVC-Intro.RazorAssemblyInfo.cs
+C:\Users\vorod\OneDrive\Documents\C# Web\MVC-Intro\MVC-Intro\obj\Debug\net6.0\staticwebassets\msbuild.MVC-Intro.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\vorod\OneDrive\Documents\C# Web\MVC-Intro\MVC-Intro\obj\Debug\net6.0\staticwebassets\msbuild.build.MVC-Intro.props
+C:\Users\vorod\OneDrive\Documents\C# Web\MVC-Intro\MVC-Intro\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.MVC-Intro.props
+C:\Users\vorod\OneDrive\Documents\C# Web\MVC-Intro\MVC-Intro\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.MVC-Intro.props
+C:\Users\vorod\OneDrive\Documents\C# Web\MVC-Intro\MVC-Intro\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\vorod\OneDrive\Documents\C# Web\MVC-Intro\MVC-Intro\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\vorod\OneDrive\Documents\C# Web\MVC-Intro\MVC-Intro\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\vorod\OneDrive\Documents\C# Web\MVC-Intro\MVC-Intro\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\vorod\OneDrive\Documents\C# Web\MVC-Intro\MVC-Intro\obj\Debug\net6.0\scopedcss\bundle\MVC-Intro.styles.css
+C:\Users\vorod\OneDrive\Documents\C# Web\MVC-Intro\MVC-Intro\obj\Debug\net6.0\scopedcss\projectbundle\MVC-Intro.bundle.scp.css
+C:\Users\vorod\OneDrive\Documents\C# Web\MVC-Intro\MVC-Intro\obj\Debug\net6.0\MVC-Intro.dll
+C:\Users\vorod\OneDrive\Documents\C# Web\MVC-Intro\MVC-Intro\obj\Debug\net6.0\refint\MVC-Intro.dll
+C:\Users\vorod\OneDrive\Documents\C# Web\MVC-Intro\MVC-Intro\obj\Debug\net6.0\MVC-Intro.pdb
+C:\Users\vorod\OneDrive\Documents\C# Web\MVC-Intro\MVC-Intro\obj\Debug\net6.0\MVC-Intro.genruntimeconfig.cache
+C:\Users\vorod\OneDrive\Documents\C# Web\MVC-Intro\MVC-Intro\obj\Debug\net6.0\ref\MVC-Intro.dll
+C:\Users\vorod\OneDrive\Documents\CSharp-Web\MVC-Intro\MVC-Intro\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\vorod\OneDrive\Documents\CSharp-Web\MVC-Intro\MVC-Intro\bin\Debug\net6.0\appsettings.json
+C:\Users\vorod\OneDrive\Documents\CSharp-Web\MVC-Intro\MVC-Intro\bin\Debug\net6.0\MVC-Intro.staticwebassets.runtime.json
+C:\Users\vorod\OneDrive\Documents\CSharp-Web\MVC-Intro\MVC-Intro\bin\Debug\net6.0\MVC-Intro.exe
+C:\Users\vorod\OneDrive\Documents\CSharp-Web\MVC-Intro\MVC-Intro\bin\Debug\net6.0\MVC-Intro.deps.json
+C:\Users\vorod\OneDrive\Documents\CSharp-Web\MVC-Intro\MVC-Intro\bin\Debug\net6.0\MVC-Intro.runtimeconfig.json
+C:\Users\vorod\OneDrive\Documents\CSharp-Web\MVC-Intro\MVC-Intro\bin\Debug\net6.0\MVC-Intro.dll
+C:\Users\vorod\OneDrive\Documents\CSharp-Web\MVC-Intro\MVC-Intro\bin\Debug\net6.0\MVC-Intro.pdb
+C:\Users\vorod\OneDrive\Documents\CSharp-Web\MVC-Intro\MVC-Intro\obj\Debug\net6.0\MVC-Intro.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vorod\OneDrive\Documents\CSharp-Web\MVC-Intro\MVC-Intro\obj\Debug\net6.0\MVC-Intro.AssemblyInfoInputs.cache
+C:\Users\vorod\OneDrive\Documents\CSharp-Web\MVC-Intro\MVC-Intro\obj\Debug\net6.0\MVC-Intro.AssemblyInfo.cs
+C:\Users\vorod\OneDrive\Documents\CSharp-Web\MVC-Intro\MVC-Intro\obj\Debug\net6.0\MVC-Intro.csproj.CoreCompileInputs.cache
+C:\Users\vorod\OneDrive\Documents\CSharp-Web\MVC-Intro\MVC-Intro\obj\Debug\net6.0\MVC-Intro.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\vorod\OneDrive\Documents\CSharp-Web\MVC-Intro\MVC-Intro\obj\Debug\net6.0\MVC-Intro.RazorAssemblyInfo.cache
+C:\Users\vorod\OneDrive\Documents\CSharp-Web\MVC-Intro\MVC-Intro\obj\Debug\net6.0\MVC-Intro.RazorAssemblyInfo.cs
+C:\Users\vorod\OneDrive\Documents\CSharp-Web\MVC-Intro\MVC-Intro\obj\Debug\net6.0\staticwebassets\msbuild.MVC-Intro.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\vorod\OneDrive\Documents\CSharp-Web\MVC-Intro\MVC-Intro\obj\Debug\net6.0\staticwebassets\msbuild.build.MVC-Intro.props
+C:\Users\vorod\OneDrive\Documents\CSharp-Web\MVC-Intro\MVC-Intro\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.MVC-Intro.props
+C:\Users\vorod\OneDrive\Documents\CSharp-Web\MVC-Intro\MVC-Intro\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.MVC-Intro.props
+C:\Users\vorod\OneDrive\Documents\CSharp-Web\MVC-Intro\MVC-Intro\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\vorod\OneDrive\Documents\CSharp-Web\MVC-Intro\MVC-Intro\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\vorod\OneDrive\Documents\CSharp-Web\MVC-Intro\MVC-Intro\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\vorod\OneDrive\Documents\CSharp-Web\MVC-Intro\MVC-Intro\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\vorod\OneDrive\Documents\CSharp-Web\MVC-Intro\MVC-Intro\obj\Debug\net6.0\scopedcss\bundle\MVC-Intro.styles.css
+C:\Users\vorod\OneDrive\Documents\CSharp-Web\MVC-Intro\MVC-Intro\obj\Debug\net6.0\scopedcss\projectbundle\MVC-Intro.bundle.scp.css
+C:\Users\vorod\OneDrive\Documents\CSharp-Web\MVC-Intro\MVC-Intro\obj\Debug\net6.0\MVC-Intro.dll
+C:\Users\vorod\OneDrive\Documents\CSharp-Web\MVC-Intro\MVC-Intro\obj\Debug\net6.0\refint\MVC-Intro.dll
+C:\Users\vorod\OneDrive\Documents\CSharp-Web\MVC-Intro\MVC-Intro\obj\Debug\net6.0\MVC-Intro.pdb
+C:\Users\vorod\OneDrive\Documents\CSharp-Web\MVC-Intro\MVC-Intro\obj\Debug\net6.0\MVC-Intro.genruntimeconfig.cache
+C:\Users\vorod\OneDrive\Documents\CSharp-Web\MVC-Intro\MVC-Intro\obj\Debug\net6.0\ref\MVC-Intro.dll
