@@ -42,6 +42,26 @@ namespace ForumApp.Infrastructure.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Posts");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Content = "Added new weapons and skins",
+                            Title = "New Fortnite Update"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Content = "Buffed and nerfed several brawlers",
+                            Title = "Brawl Stars balance changes"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Content = "Added the new Italy DLC",
+                            Title = "New DLCs in ETS2"
+                        });
                 });
 #pragma warning restore 612, 618
         }
