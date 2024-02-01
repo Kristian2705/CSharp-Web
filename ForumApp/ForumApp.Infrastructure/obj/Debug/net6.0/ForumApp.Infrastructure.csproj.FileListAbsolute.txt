@@ -1,0 +1,14 @@
+C:\Users\vorod\OneDrive\Documents\CSharp-Web\ForumApp\ForumApp.Infrastructure\bin\Debug\net6.0\ForumApp.Infrastructure.deps.json
+C:\Users\vorod\OneDrive\Documents\CSharp-Web\ForumApp\ForumApp.Infrastructure\bin\Debug\net6.0\ForumApp.Infrastructure.runtimeconfig.json
+C:\Users\vorod\OneDrive\Documents\CSharp-Web\ForumApp\ForumApp.Infrastructure\bin\Debug\net6.0\ForumApp.Infrastructure.dll
+C:\Users\vorod\OneDrive\Documents\CSharp-Web\ForumApp\ForumApp.Infrastructure\bin\Debug\net6.0\ForumApp.Infrastructure.pdb
+C:\Users\vorod\OneDrive\Documents\CSharp-Web\ForumApp\ForumApp.Infrastructure\obj\Debug\net6.0\ForumApp.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\vorod\OneDrive\Documents\CSharp-Web\ForumApp\ForumApp.Infrastructure\obj\Debug\net6.0\ForumApp.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vorod\OneDrive\Documents\CSharp-Web\ForumApp\ForumApp.Infrastructure\obj\Debug\net6.0\ForumApp.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\vorod\OneDrive\Documents\CSharp-Web\ForumApp\ForumApp.Infrastructure\obj\Debug\net6.0\ForumApp.Infrastructure.AssemblyInfo.cs
+C:\Users\vorod\OneDrive\Documents\CSharp-Web\ForumApp\ForumApp.Infrastructure\obj\Debug\net6.0\ForumApp.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\vorod\OneDrive\Documents\CSharp-Web\ForumApp\ForumApp.Infrastructure\obj\Debug\net6.0\ForumApp.Infrastructure.dll
+C:\Users\vorod\OneDrive\Documents\CSharp-Web\ForumApp\ForumApp.Infrastructure\obj\Debug\net6.0\refint\ForumApp.Infrastructure.dll
+C:\Users\vorod\OneDrive\Documents\CSharp-Web\ForumApp\ForumApp.Infrastructure\obj\Debug\net6.0\ForumApp.Infrastructure.pdb
+C:\Users\vorod\OneDrive\Documents\CSharp-Web\ForumApp\ForumApp.Infrastructure\obj\Debug\net6.0\ForumApp.Infrastructure.genruntimeconfig.cache
+C:\Users\vorod\OneDrive\Documents\CSharp-Web\ForumApp\ForumApp.Infrastructure\obj\Debug\net6.0\ref\ForumApp.Infrastructure.dll
