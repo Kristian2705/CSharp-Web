@@ -4,6 +4,9 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace ForumApp.Controllers
 {
+	/// <summary>
+	/// Post controller
+	/// </summary>
 	public class PostController : Controller
 	{
 		private IPostService service;
