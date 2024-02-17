@@ -9,7 +9,7 @@ using TaskBoard.Data;
 
 namespace TaskBoard.Data.Migrations
 {
-    [DbContext(typeof(ApplicationDbContext))]
+    [DbContext(typeof(TaskBoardDbContext))]
     [Migration("00000000000000_CreateIdentitySchema")]
     partial class CreateIdentitySchema
     {
