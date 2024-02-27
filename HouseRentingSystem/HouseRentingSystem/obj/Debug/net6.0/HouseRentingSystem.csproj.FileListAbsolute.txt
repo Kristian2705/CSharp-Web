@@ -55,7 +55,6 @@ C:\Users\vorod\OneDrive\Documents\CSharp-Web\HouseRentingSystem\HouseRentingSyst
 C:\Users\vorod\OneDrive\Documents\CSharp-Web\HouseRentingSystem\HouseRentingSystem\obj\Debug\net6.0\HouseRentingSystem.AssemblyInfoInputs.cache
 C:\Users\vorod\OneDrive\Documents\CSharp-Web\HouseRentingSystem\HouseRentingSystem\obj\Debug\net6.0\HouseRentingSystem.AssemblyInfo.cs
 C:\Users\vorod\OneDrive\Documents\CSharp-Web\HouseRentingSystem\HouseRentingSystem\obj\Debug\net6.0\HouseRentingSystem.csproj.CoreCompileInputs.cache
-C:\Users\vorod\OneDrive\Documents\CSharp-Web\HouseRentingSystem\HouseRentingSystem\obj\Debug\net6.0\HouseRentingSystem.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\vorod\OneDrive\Documents\CSharp-Web\HouseRentingSystem\HouseRentingSystem\obj\Debug\net6.0\HouseRentingSystem.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\vorod\OneDrive\Documents\CSharp-Web\HouseRentingSystem\HouseRentingSystem\obj\Debug\net6.0\HouseRentingSystem.RazorAssemblyInfo.cache
 C:\Users\vorod\OneDrive\Documents\CSharp-Web\HouseRentingSystem\HouseRentingSystem\obj\Debug\net6.0\HouseRentingSystem.RazorAssemblyInfo.cs
@@ -75,3 +74,8 @@ C:\Users\vorod\OneDrive\Documents\CSharp-Web\HouseRentingSystem\HouseRentingSyst
 C:\Users\vorod\OneDrive\Documents\CSharp-Web\HouseRentingSystem\HouseRentingSystem\obj\Debug\net6.0\HouseRentingSystem.pdb
 C:\Users\vorod\OneDrive\Documents\CSharp-Web\HouseRentingSystem\HouseRentingSystem\obj\Debug\net6.0\HouseRentingSystem.genruntimeconfig.cache
 C:\Users\vorod\OneDrive\Documents\CSharp-Web\HouseRentingSystem\HouseRentingSystem\obj\Debug\net6.0\ref\HouseRentingSystem.dll
+C:\Users\vorod\OneDrive\Documents\CSharp-Web\HouseRentingSystem\HouseRentingSystem\bin\Debug\net6.0\HouseRentingSystem.Core.dll
+C:\Users\vorod\OneDrive\Documents\CSharp-Web\HouseRentingSystem\HouseRentingSystem\bin\Debug\net6.0\HouseRentingSystem.Infrastructure.dll
+C:\Users\vorod\OneDrive\Documents\CSharp-Web\HouseRentingSystem\HouseRentingSystem\bin\Debug\net6.0\HouseRentingSystem.Core.pdb
+C:\Users\vorod\OneDrive\Documents\CSharp-Web\HouseRentingSystem\HouseRentingSystem\bin\Debug\net6.0\HouseRentingSystem.Infrastructure.pdb
+C:\Users\vorod\OneDrive\Documents\CSharp-Web\HouseRentingSystem\HouseRentingSystem\obj\Debug\net6.0\HouseRentingSystem.MvcApplicationPartsAssemblyInfo.cs

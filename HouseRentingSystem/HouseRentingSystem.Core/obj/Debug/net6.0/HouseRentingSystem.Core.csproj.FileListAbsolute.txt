@@ -1,0 +1,15 @@
+C:\Users\vorod\OneDrive\Documents\CSharp-Web\HouseRentingSystem\HouseRentingSystem.Core\bin\Debug\net6.0\HouseRentingSystem.Core.deps.json
+C:\Users\vorod\OneDrive\Documents\CSharp-Web\HouseRentingSystem\HouseRentingSystem.Core\bin\Debug\net6.0\HouseRentingSystem.Core.dll
+C:\Users\vorod\OneDrive\Documents\CSharp-Web\HouseRentingSystem\HouseRentingSystem.Core\bin\Debug\net6.0\HouseRentingSystem.Core.pdb
+C:\Users\vorod\OneDrive\Documents\CSharp-Web\HouseRentingSystem\HouseRentingSystem.Core\obj\Debug\net6.0\HouseRentingSystem.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vorod\OneDrive\Documents\CSharp-Web\HouseRentingSystem\HouseRentingSystem.Core\obj\Debug\net6.0\HouseRentingSystem.Core.AssemblyInfoInputs.cache
+C:\Users\vorod\OneDrive\Documents\CSharp-Web\HouseRentingSystem\HouseRentingSystem.Core\obj\Debug\net6.0\HouseRentingSystem.Core.AssemblyInfo.cs
+C:\Users\vorod\OneDrive\Documents\CSharp-Web\HouseRentingSystem\HouseRentingSystem.Core\obj\Debug\net6.0\HouseRentingSystem.Core.csproj.CoreCompileInputs.cache
+C:\Users\vorod\OneDrive\Documents\CSharp-Web\HouseRentingSystem\HouseRentingSystem.Core\obj\Debug\net6.0\HouseRentingSystem.Core.dll
+C:\Users\vorod\OneDrive\Documents\CSharp-Web\HouseRentingSystem\HouseRentingSystem.Core\obj\Debug\net6.0\refint\HouseRentingSystem.Core.dll
+C:\Users\vorod\OneDrive\Documents\CSharp-Web\HouseRentingSystem\HouseRentingSystem.Core\obj\Debug\net6.0\HouseRentingSystem.Core.pdb
+C:\Users\vorod\OneDrive\Documents\CSharp-Web\HouseRentingSystem\HouseRentingSystem.Core\obj\Debug\net6.0\ref\HouseRentingSystem.Core.dll
+C:\Users\vorod\OneDrive\Documents\CSharp-Web\HouseRentingSystem\HouseRentingSystem.Core\obj\Debug\net6.0\HouseRentingSystem.Core.csproj.AssemblyReference.cache
+C:\Users\vorod\OneDrive\Documents\CSharp-Web\HouseRentingSystem\HouseRentingSystem.Core\bin\Debug\net6.0\HouseRentingSystem.Infrastructure.dll
+C:\Users\vorod\OneDrive\Documents\CSharp-Web\HouseRentingSystem\HouseRentingSystem.Core\bin\Debug\net6.0\HouseRentingSystem.Infrastructure.pdb
+C:\Users\vorod\OneDrive\Documents\CSharp-Web\HouseRentingSystem\HouseRentingSystem.Core\obj\Debug\net6.0\HouseRentingSystem.Core.csproj.CopyComplete
