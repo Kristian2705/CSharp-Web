@@ -1,7 +1,3 @@
-using HouseRentingSystem.Data;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.EntityFrameworkCore;
-
 namespace HouseRentingSystem
 {
     public class Program
