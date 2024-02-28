@@ -20,12 +20,40 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/vorod/OneDrive/Documents/CSharp-Web/HouseRentingSystem/HouseRentingSystem/Views/Agent/Become.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWdlbnRcQmVjb21lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/vorod/OneDrive/Documents/CSharp-Web/HouseRentingSystem/HouseRentingSystem/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/vorod/OneDrive/Documents/CSharp-Web/HouseRentingSystem/HouseRentingSystem/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vorod/OneDrive/Documents/CSharp-Web/HouseRentingSystem/HouseRentingSystem/Views/House/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG91c2VcQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vorod/OneDrive/Documents/CSharp-Web/HouseRentingSystem/HouseRentingSystem/Views/House/All.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG91c2VcQWxsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vorod/OneDrive/Documents/CSharp-Web/HouseRentingSystem/HouseRentingSystem/Views/House/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG91c2VcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vorod/OneDrive/Documents/CSharp-Web/HouseRentingSystem/HouseRentingSystem/Views/House/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG91c2VcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vorod/OneDrive/Documents/CSharp-Web/HouseRentingSystem/HouseRentingSystem/Views/House/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG91c2VcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vorod/OneDrive/Documents/CSharp-Web/HouseRentingSystem/HouseRentingSystem/Views/House/Mine.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG91c2VcTWluZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/vorod/OneDrive/Documents/CSharp-Web/HouseRentingSystem/HouseRentingSystem/Views/Shared/Components/MainMenuComponent/Default.cshtml]
