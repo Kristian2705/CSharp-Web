@@ -9,7 +9,7 @@ namespace HouseRentingSystem.Infrastructure.Data.Models
     {
         [Key]
         [Comment("Category idenitfier")]
-        public int Key { get; set; }
+        public int Id { get; set; }
 
         [Required]
         [MaxLength(CategoryNameMaxLength)]
