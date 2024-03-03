@@ -64,7 +64,18 @@ namespace HouseRentingSystem.Controllers
                 ModelState.AddModelError(nameof(model.CategoryId), "");
             }
 
-            return RedirectToAction(nameof(Details), new { id = "1" });
+            if (!ModelState.IsValid)
+            {
+                model.Categories = await houseService.AllCategoriesAsync();
+
+                return View(model);
+            }
+
+            int? agentId = await agentService.GetAgentByIdAsync(User.Id());
+
+            int newHouseId = await houseService.CreateAsync(model, agentId ?? 0);
+
+            return RedirectToAction(nameof(Details), new { id = newHouseId });
         }
 
         [HttpGet]

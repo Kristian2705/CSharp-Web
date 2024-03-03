@@ -25,9 +25,10 @@ namespace HouseRentingSystem.Core.Services
                 .ToListAsync();
         }
 
-        public Task<bool> CategoryExistsAsync(int categoryId)
+        public async Task<bool> CategoryExistsAsync(int categoryId)
         {
-            throw new NotImplementedException();
+            return await repository.AllReadOnly<Category>()
+                .AnyAsync(c => c.Id == categoryId);
         }
 
         public async Task<int> CreateAsync(HouseFormModel model, int agentId)

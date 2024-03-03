@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace HouseRentingSystem.Core.Services
 {
-	public class AgentService : IAgentService
+    public class AgentService : IAgentService
 	{
 		private readonly IRepository repository;
         public AgentService(IRepository _repository)
@@ -31,7 +31,13 @@ namespace HouseRentingSystem.Core.Services
 				.AnyAsync(a => a.UserId == userId);
 		}
 
-		public async Task<bool> UserHasRentsAsync(string userId)
+        public async Task<int?> GetAgentByIdAsync(string userId)
+        {
+            return (await repository.AllReadOnly<Agent>()
+				.FirstOrDefaultAsync(a => a.UserId == userId))?.Id;
+        }
+
+        public async Task<bool> UserHasRentsAsync(string userId)
 		{
 			return await repository.AllReadOnly<House>()
 				.AnyAsync(h => h.RenterId == userId);
