@@ -13,7 +13,7 @@ namespace HouseRentingSystem.Core.Contracts
 
         Task<int> CreateAsync(HouseFormModel model, int agentId);
 
-        Task<HouseQueryServiceModel> All(
+        Task<HouseQueryServiceModel> AllAsync(
             string? category = null,
             string? searchTerm = null,
             HouseSorting sorting = HouseSorting.Newest,

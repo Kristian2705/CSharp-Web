@@ -4,7 +4,6 @@ using HouseRentingSystem.Core.Models.House;
 using HouseRentingSystem.Infrastructure.Data.Common;
 using HouseRentingSystem.Infrastructure.Data.Models;
 using Microsoft.EntityFrameworkCore;
-using System.Security;
 
 namespace HouseRentingSystem.Core.Services
 {
@@ -40,10 +39,10 @@ namespace HouseRentingSystem.Core.Services
             housesToShow = sorting switch
             {
                 HouseSorting.Price => housesToShow
-                    .OrderByDescending(h => h.PricePerMonth),
+                    .OrderBy(h => h.PricePerMonth),
                 HouseSorting.NotRentedFirts => housesToShow
-                    .OrderBy(h => h.RenterId == null)
-                    .OrderByDescending(h => h.Id),
+                    .OrderBy(h => h.RenterId != null)
+                    .ThenByDescending(h => h.Id),
                 _ => housesToShow
                     .OrderByDescending(h => h.Id)
             };
@@ -56,7 +55,7 @@ namespace HouseRentingSystem.Core.Services
                     Id = h.Id,
                     Title = h.Title,
                     Address = h.Address,
-                    ImageURL = h.ImageUrl,
+                    ImageUrl = h.ImageUrl,
                     IsRented = h.RenterId != null,
                     PricePerMonth = h.PricePerMonth
                 })
@@ -82,9 +81,12 @@ namespace HouseRentingSystem.Core.Services
                 .ToListAsync();
         }
 
-        public Task<IEnumerable<string>> AllCategoriesNameAsync()
+        public async Task<IEnumerable<string>> AllCategoriesNameAsync()
         {
-            throw new NotImplementedException();
+            return await repository.AllReadOnly<Category>()
+                .Select(c => c.Name)
+                .Distinct()
+                .ToListAsync();
         }
 
         public async Task<bool> CategoryExistsAsync(int categoryId)
