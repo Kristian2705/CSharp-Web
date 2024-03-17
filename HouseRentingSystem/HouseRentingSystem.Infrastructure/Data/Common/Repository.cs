@@ -2,7 +2,7 @@
 
 namespace HouseRentingSystem.Infrastructure.Data.Common
 {
-	public class Repository : IRepository
+    public class Repository : IRepository
 	{
 		private readonly DbContext context;
         public Repository(HouseRentingDbContext _context)
@@ -19,5 +19,7 @@ namespace HouseRentingSystem.Infrastructure.Data.Common
 			=> await DbSet<T>().AddAsync(entity);
 		public async Task<int> SaveChangesAsync()
 			=> await context.SaveChangesAsync();
-	}
+        public async Task<T?> GetByIdAsync<T>(int id) where T : class
+			=> await DbSet<T>().FindAsync(id);
+    }
 }
