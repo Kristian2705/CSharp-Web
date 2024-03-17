@@ -1,5 +1,6 @@
 ﻿using HouseRentingSystem.Core.Contracts;
 using HouseRentingSystem.Core.Enumerations;
+using HouseRentingSystem.Core.Models.Agent;
 using HouseRentingSystem.Core.Models.House;
 using HouseRentingSystem.Infrastructure.Data.Common;
 using HouseRentingSystem.Infrastructure.Data.Models;
@@ -50,15 +51,7 @@ namespace HouseRentingSystem.Core.Services
             var houses = await housesToShow
                 .Skip((currentPage - 1) * housesPerPage)
                 .Take(housesPerPage)
-                .Select(h => new HouseServiceModel()
-                {
-                    Id = h.Id,
-                    Title = h.Title,
-                    Address = h.Address,
-                    ImageUrl = h.ImageUrl,
-                    IsRented = h.RenterId != null,
-                    PricePerMonth = h.PricePerMonth
-                })
+                .ProjectToHouseServiceModel()
                 .ToListAsync();
 
             int totalHouses = await housesToShow.CountAsync();
@@ -89,6 +82,24 @@ namespace HouseRentingSystem.Core.Services
                 .ToListAsync();
         }
 
+        public async Task<IEnumerable<HouseServiceModel>> AllHousesByAgentIdAsync(int agentId)
+        {
+            return await repository
+                .AllReadOnly<House>()
+                .Where(h => h.AgentId == agentId)
+                .ProjectToHouseServiceModel()
+                .ToListAsync();
+        }
+
+        public async Task<IEnumerable<HouseServiceModel>> AllHousesByUserIdAsync(string userId)
+        {
+            return await repository
+                .AllReadOnly<House>()
+                .Where(h => h.RenterId == userId)
+                .ProjectToHouseServiceModel()
+                .ToListAsync();
+        }
+
         public async Task<bool> CategoryExistsAsync(int categoryId)
         {
             return await repository.AllReadOnly<Category>()
@@ -112,6 +123,35 @@ namespace HouseRentingSystem.Core.Services
             await repository.SaveChangesAsync();
 
             return house.Id;
+        }
+
+        public async Task<bool> ExistsAsync(int id)
+        {
+            return await repository.AllReadOnly<House>()
+                .AnyAsync(h => h.Id == id);
+        }
+
+        public async Task<HouseDetailsServiceModel> HouseDetailsByIdAsync(int id)
+        {
+            return await repository.AllReadOnly<House>()
+                .Where(h => h.Id == id)
+                .Select(h => new HouseDetailsServiceModel()
+                {
+                    Id = h.Id,
+                    Address = h.Address,
+                    Agent = new AgentServiceModel()
+                    {
+                        Email = h.Agent.User.Email,
+                        PhoneNumber = h.Agent.PhoneNumber
+                    },
+                    Category = h.Category.Name,
+                    Description = h.Description,
+                    ImageUrl = h.ImageUrl,
+                    IsRented = h.RenterId != null,
+                    PricePerMonth = h.PricePerMonth,
+                    Title = h.Title
+                })
+                .FirstAsync();
         }
 
         public async Task<IEnumerable<HouseIndexServiceModel>> LastThreeHousesAsync()
