@@ -125,6 +125,12 @@ namespace HouseRentingSystem.Core.Services
             return house.Id;
         }
 
+        public async Task DeleteAsync(int houseId)
+        {
+            await repository.DeleteAsync<House>(houseId);
+            await repository.SaveChangesAsync();
+        }
+
         public async Task EditAsync(int houseId, HouseFormModel model)
         {
             var house = await repository.GetByIdAsync<House>(houseId);
@@ -200,6 +206,34 @@ namespace HouseRentingSystem.Core.Services
                 .FirstAsync();
         }
 
+        public async Task<bool> IsRentedAsync(int houseId)
+        {
+            bool result = false;
+
+            var house = await repository.GetByIdAsync<House>(houseId);
+
+            if(house != null)
+            {
+                result = house.RenterId != null;
+            }
+
+            return result;
+        }
+
+        public async Task<bool> IsRentedByUserWithIdAsync(int houseId, string userId)
+        {
+            bool result = false;
+
+            var house = await repository.GetByIdAsync<House>(houseId);
+
+            if (house != null)
+            {
+                result = house.RenterId == userId;
+            }
+
+            return result;
+        }
+
         public async Task<IEnumerable<HouseIndexServiceModel>> LastThreeHousesAsync()
         {
             return await repository
@@ -213,6 +247,11 @@ namespace HouseRentingSystem.Core.Services
                     ImageUrl = h.ImageUrl,
                 })
                 .ToListAsync();
+        }
+
+        public Task Rent(int id, string userId)
+        {
+            throw new NotImplementedException();
         }
     }
 }

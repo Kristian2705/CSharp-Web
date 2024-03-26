@@ -157,13 +157,44 @@ namespace HouseRentingSystem.Controllers
         [HttpGet]
         public async Task<IActionResult> Delete(int id)
         {
-			var model = new HouseFormModel();
-			return View(model);
+			if(await houseService.ExistsAsync(id) == false)
+            {
+                return BadRequest();
+            }
+
+            if(await houseService.HasAgentWithIdAsync(id, User.Id()) == false)
+            {
+                return Unauthorized();
+            }
+
+            var house = await houseService.HouseDetailsByIdAsync(id);
+
+            var model = new HouseDetailsViewModel()
+            {
+                Id = id,
+                Address = house.Address,
+                ImageUrl = house.ImageUrl,
+                Title = house.Title
+            };
+
+            return View(model);
 		}
 
         [HttpPost]
         public async Task<IActionResult> Delete(HouseDetailsViewModel house)
         {
+            if (await houseService.ExistsAsync(house.Id) == false)
+            {
+                return BadRequest();
+            }
+
+            if (await houseService.HasAgentWithIdAsync(house.Id, User.Id()) == false)
+            {
+                return Unauthorized();
+            }
+
+            await houseService.DeleteAsync(house.Id);
+
             return RedirectToAction(nameof(All));
         }
     }
