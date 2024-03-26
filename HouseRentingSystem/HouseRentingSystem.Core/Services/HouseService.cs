@@ -249,9 +249,26 @@ namespace HouseRentingSystem.Core.Services
                 .ToListAsync();
         }
 
-        public Task Rent(int id, string userId)
+        public async Task LeaveAsync(int houseId)
         {
-            throw new NotImplementedException();
+            var house = await repository.GetByIdAsync<House>(houseId);
+
+            if (house != null)
+            {
+                house.RenterId = null;
+                await repository.SaveChangesAsync();
+            }
+        }
+
+        public async Task RentAsync(int id, string userId)
+        {
+            var house = await repository.GetByIdAsync<House>(id);
+
+            if(house != null)
+            {
+                house.RenterId = userId;
+                await repository.SaveChangesAsync();
+            }
         }
     }
 }

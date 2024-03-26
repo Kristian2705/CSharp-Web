@@ -1,6 +1,7 @@
 ﻿using HouseRentingSystem.Attributes;
 using HouseRentingSystem.Core.Contracts;
 using HouseRentingSystem.Core.Models.House;
+using HouseRentingSystem.Infrastructure.Data.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
@@ -196,6 +197,47 @@ namespace HouseRentingSystem.Controllers
             await houseService.DeleteAsync(house.Id);
 
             return RedirectToAction(nameof(All));
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Rent(int id)
+        {
+            if (await houseService.ExistsAsync(id) == false)
+            {
+                return BadRequest();
+            }
+
+            if (await houseService.HasAgentWithIdAsync(id, User.Id()) == false)
+            {
+                return Unauthorized();
+            }
+
+            if(await houseService.IsRentedAsync(id))
+            {
+                return BadRequest();
+            }
+
+            await houseService.RentAsync(id, User.Id());
+
+            return RedirectToAction(nameof(All));
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Leave(int id)
+        {
+            if(await houseService.ExistsAsync(id) == false)
+            {
+                return BadRequest();
+            }
+
+            if(await houseService.IsRentedByUserWithIdAsync(id, User.Id()) == false)
+            {
+                return Unauthorized();
+            }
+
+            await houseService.LeaveAsync(id);
+
+            return RedirectToAction(nameof(Mine));
         }
     }
 }

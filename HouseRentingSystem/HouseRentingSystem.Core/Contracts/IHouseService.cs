@@ -42,6 +42,6 @@ namespace HouseRentingSystem.Core.Contracts
 
         Task<bool> IsRentedByUserWithIdAsync(int houseId, string userId);
 
-        Task Rent(int id, string userId);
+        Task RentAsync(int id, string userId);
     }
 }
