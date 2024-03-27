@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace HouseRentingSystem.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/statistic")]
     [ApiController]
     public class StatisticApiController : ControllerBase
     {
