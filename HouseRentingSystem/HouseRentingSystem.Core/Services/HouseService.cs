@@ -1,5 +1,6 @@
 ﻿using HouseRentingSystem.Core.Contracts;
 using HouseRentingSystem.Core.Enumerations;
+using HouseRentingSystem.Core.Exceptions;
 using HouseRentingSystem.Core.Models.Agent;
 using HouseRentingSystem.Core.Models.House;
 using HouseRentingSystem.Infrastructure.Data.Common;
@@ -249,12 +250,17 @@ namespace HouseRentingSystem.Core.Services
                 .ToListAsync();
         }
 
-        public async Task LeaveAsync(int houseId)
+        public async Task LeaveAsync(int houseId, string userId)
         {
             var house = await repository.GetByIdAsync<House>(houseId);
 
             if (house != null)
             {
+                if(house.RenterId != userId)
+                {
+                    throw new UnauthorizedActionException("The user is not the renter");
+                }
+
                 house.RenterId = null;
                 await repository.SaveChangesAsync();
             }
